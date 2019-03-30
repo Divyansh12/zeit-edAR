@@ -25,49 +25,35 @@ export default Invert
 
 <div >
   <Appear>
-  <h2>what exactly is edAR </h2>
-  <div><h1>?</h1></div>
+  <h1>what exactly is edAR <h1 style= {{ color: 'grey' }}>?</h1> </h1>
+  
   </Appear>
 </div>
 
 ---
-# Initial configuration
-Let's take a look at our `now.json` file...
+
+edAR is an android application which makes learning easy.
 
 ---
-<CodeSurfer
-  code={require("raw-loader!./snippets/example-nowconfiguration.snippet")}
-  title="ZEIT Now - now.json"
-  showNumbers
-  steps={[
-    {}, // First step should be an overview of the snippet
-    {lines: [2], notes: "Specify version 2"},
-    {lines: [3], notes: "Give our project a name"},
-    {range: [4,6], notes: "Use @now/static-build when serving static content"},
-    {}
-  ]}
-/>
+
+
+
+  
+  <h1>HOW <h1 style= {{ color: 'grey' }}>?</h1> </h1>
+  
+
+
 
 ---
-# One more thing
-Add a `now-build` script to `package.json` which
-<ul style={{listStyle: 'none'}}>
+<div >
   <Appear>
-    <li>Builds a static site containing our presentation</li>
-    <li>Recursively copies images to our new build directory</li>
-    <li>Recursively copies code snippets to our new build directory</li>
+  <ul>
+    <li>edAR uses augmented reality to visualise complex concepts which can now be learned much easily.</li>
+    <li>Compared to reading long notes,watching multiple videos or going through courses.</li>
+  </ul> 
+  
   </Appear>
-</ul>
-
----
-<CodeSurfer
-  code={require("raw-loader!./snippets/example-packagejson.snippet")}
-  title="ZEIT Now - package.json"
-  showNumbers
-  steps={[
-    {}, // First step should be an overview of the snippet
-  ]}
-/>
+</div>
 
 ---
 # Deploy to ZEIT Now
