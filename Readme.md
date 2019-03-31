@@ -5,7 +5,7 @@ Click `Show` in the header to see your app live. Updates to your code will insta
 
 *edAR* is an Augumented Reality Platform where can learn about real life things faster and better with the help of Augumented Reality. With edAR you can learn things you wish to learn by interacting with the images of your book or any written text that you wish to know more about.
 
-Find out more [about edAR]().
+Find out more [about edAR](https://edar-6jbbh3why.now.sh/#0).
 
 
 Your Project
